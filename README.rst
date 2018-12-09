@@ -29,3 +29,16 @@ Features
   (This is the default value, it supports two variables, ``project`` is taken
    directly from ``conf.py``, and ``page`` evaluates to
    ``path/to/current/page.suffix``)
+* Supports (multi-project) search using `sphinx_elasticsearch`_.
+  Configure like this (default values are shown here)::
+
+    html_theme_options = {
+        'elasticsearch_host': 'http://docs.zeit.de/elasticsearch',
+        'elasticsearch_index': 'docs',
+        # For creating links to search result items
+        'public_url_root': 'http://docs.zeit.de/'
+    }
+
+  To disable and use the built-in Sphinx search, set ``elasticsearch_host`` to None.
+
+.. _`sphinx_elasticsearch`: https://pypi.org/project/sphinx_elasticsearch
