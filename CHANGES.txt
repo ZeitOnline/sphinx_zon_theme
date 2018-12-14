@@ -2,7 +2,7 @@
 Changelog
 =========
 
-1.2.0 (unreleased)
+1.1.1 (2018-12-14)
 ------------------
 
 - Update default URL to https://docs.zeit.de
