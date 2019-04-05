@@ -2,7 +2,7 @@
 Changelog
 =========
 
-1.2.0 (unreleased)
+1.2.0 (2019-04-05)
 ------------------
 
 - Add a "like" button to the bottom of each page
