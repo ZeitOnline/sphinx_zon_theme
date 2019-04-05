@@ -20,4 +20,12 @@
   <li class="toctree-l1"><a class="reference external" href="{{theme_editme_link.format(project=project, page=pagepath) }}" target="_blank">Diese Seite editieren</a></li>
 </ul>
 
-{% endblock%}
+{% endblock %}
+
+{% if theme_like_iframe_src %}
+{% block document %}
+{{super()}}
+
+<iframe src="{{theme_like_iframe_src}}" style="{{theme_like_iframe_style}}"></iframe>
+{% endblock %}
+{% endif %}

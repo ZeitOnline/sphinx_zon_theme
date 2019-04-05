@@ -5,7 +5,7 @@ Changelog
 1.2.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add a "like" button to the bottom of each page
 
 
 1.1.1 (2018-12-14)
