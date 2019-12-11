@@ -5,7 +5,7 @@ Changelog
 1.3.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Style tables a little more nicely
 
 
 1.2.0 (2019-04-05)
