@@ -13,7 +13,7 @@ def project_path(*names):
 
 setup(
     name='sphinx_zon_theme',
-    version='1.4.0.dev0',
+    version='1.3.2',
 
     install_requires=[
         'sphinx_rtd_theme',
