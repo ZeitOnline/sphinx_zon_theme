@@ -16,7 +16,7 @@ setup(
     version='1.3.0.dev0',
 
     install_requires=[
-        'sphinx_rtd_theme',
+        'sphinx_rtd_theme >= 0.5.0.dev0',
         'setuptools',
     ],
 
