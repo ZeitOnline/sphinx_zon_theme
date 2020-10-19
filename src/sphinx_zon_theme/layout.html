@@ -22,11 +22,3 @@
 </ul>
 
 {% endblock %}
-
-{% if theme_like_iframe_src %}
-{% block document %}
-{{super()}}
-
-<iframe src="{{theme_like_iframe_src}}" style="{{theme_like_iframe_style}}"></iframe>
-{% endblock %}
-{% endif %}
