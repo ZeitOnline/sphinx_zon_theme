@@ -40,6 +40,5 @@ Features
     }
 
   To disable and use the built-in Sphinx search, set ``elasticsearch_host`` to None.
-* Adds a "like" button (iframe) at the bottom of each page. To disable, set ``like_iframe_src`` to None.
 
 .. _`sphinx_elasticsearch`: https://pypi.org/project/sphinx_elasticsearch
