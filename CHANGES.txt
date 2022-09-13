@@ -2,10 +2,11 @@
 Changelog
 =========
 
-1.4.3 (unreleased)
+1.4.3 (2022-09-13)
 ==================
 
-- Nothing changed yet.
+- Remove sphinx_elasticsearch integration
+- Update sphinx_rtd_theme to 1.0.0
 
 
 1.4.2 (2020-10-20)
